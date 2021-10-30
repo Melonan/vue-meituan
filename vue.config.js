@@ -35,7 +35,7 @@ module.exports = {
 
         
         // 通过get请求方式获取数据
-        app.get('/goods',(req,res) => {
+        app.get('/api/goods',(req,res) => {
             // 返回数据给客户端, 返回json数据
             res.json({
               errno: 0,
@@ -43,7 +43,7 @@ module.exports = {
             });
         });
 
-        app.get('/ratings',(req,res) => {
+        app.get('/api/ratings',(req,res) => {
             // 返回数据给客户端, 返回json数据
             res.json({
               errno: 0,
@@ -51,7 +51,7 @@ module.exports = {
             });
         });
 
-        app.get('/seller',(req,res) => {
+        app.get('/api/seller',(req,res) => {
             // 返回数据给客户端, 返回json数据
             res.json(seller);
         });
