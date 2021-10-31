@@ -2,7 +2,9 @@
 <template>
   <div class="nav">
 
-      <div class="nav-item goods">
+      <!-- 使用Router-link来进行导航 -->
+      <!-- 通过传入to属性指定连接 -->
+      <!-- <div class="nav-item goods">
           点菜
       </div>
       <div class="nav-item ratings">
@@ -10,7 +12,10 @@
       </div>
       <div class="nav-item seller">
           商家
-      </div>
+      </div> -->
+      <router-link to="/goods">点菜</router-link>
+      <router-link to="/ratings">评价</router-link>
+      <router-link to="/seller">商家</router-link>
 
 
   </div>

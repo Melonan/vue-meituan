@@ -9,9 +9,14 @@
     <mynav></mynav>
 
     <!-- 主体内容 -->
-    <div class="content">
+    <!-- <div class="content">
       content
-    </div>
+    </div> -->
+    <!-- 主题内容改为导航栏导航到的页面组件 -->
+    <!-- 路由出口 -->
+    <router-view>
+
+    </router-view>
   </div>
 </template>
 
